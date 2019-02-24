@@ -1,0 +1,21 @@
+{
+  "name": "multiplayerbackend",
+  "version": "0.0.1",
+  "description": "Multiplayer Game Server Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@colyseus/monitor": "^0.1.11",
+    "@gamestdio/keycode": "^2.0.0",
+    "@gamestdio/timer": "^1.2.0",
+    "colyseus": "^0.9.32",
+    "colyseus.js": "^0.9.16",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "winston": "^3.2.1"
+  }
+}
